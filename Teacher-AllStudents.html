@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section class="shell">
+
+        <div class="top-nav theme-dark">
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    IT<span>LIVE</span>
+                </a>
+            </div>
+            <div class="content-container">
+                <div id="groupName" class="profil">
+                    <!-- <h2 class="elements-card-title text-center text-white m-0 mx-auto">Group #1</h2> -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle ms-auto d-flex align-items-center"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-circle fs-4 me-2"></i>
+                            Ergashev Abdulla
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profil</a></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="student-lists d-flex">
+            <aside class="logo-container theme-dark">
+                <div class="my-accordion">
+                    <div class="my-accordion-item">
+                        <button class="accor-btn">
+                            Davomat
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                        <div id="group" class="list-group accor-list list-group-flush bg-transparent">
+                            <!-- <a href="./table.html" class="list-group-item list-group-item-action">Group #1</a>
+                            <a href="#" class="list-group-item list-group-item-action">Group #2</a>
+                            <a href="#" class="list-group-item list-group-item-action">Group #3</a>
+                            <a href="#" class="list-group-item list-group-item-action">Group #4</a> -->
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <main class="content-container h-90vh">
+                <div class="row p-5">
+                    <div class="col-12 text-end mb-3">
+                        <button class="btn btn-primary px-5">Save</button>
+                    </div>
+                    <div class="col-12">
+                        <table class="table text-center border-dark rounded w-100">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">FISH</th>
+                                    <th scope="col">Telefon</th>
+                                    <th scope="col">Davomat</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                                <!-- <tr>
+                                    <td>1</td>
+                                    <td>Abdumalikov Abdurahim</td>
+                                    <td>+998901234567</td>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </section>
+
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/group.js"></script>
+</body>
+
+</html>
